@@ -18,17 +18,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import football.pojo.ResultPojo;
+import football.pojo.ExcelResult;
 import football.svc.FootballAnalysisService;
 	
 @RestController
 public class BaseController {
 
-	@Autowired
-	private LocalSessionFactoryBean sessionFactory;
-	
-	@Autowired
-	private HibernateTransactionManager txnManager;
+//	@Autowired
+//	private LocalSessionFactoryBean sessionFactory;
+//	
+//	@Autowired
+//	private HibernateTransactionManager txnManager;
 	
 
 

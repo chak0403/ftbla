@@ -9,16 +9,16 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 
-@Transactional
+//@Transactional
 public class BaseDao {
 	
 //	@Autowired
 //	protected LocalSessionFactoryBean sessionFactoryBean;
 //	
-	@Autowired
-	protected HibernateTransactionManager txnManager;
-	
-	@Autowired
-    protected SessionFactory sessionFactory;
+//	@Autowired
+//	protected HibernateTransactionManager txnManager;
+//	
+//	@Autowired
+//    protected SessionFactory sessionFactory;
 	
 }
