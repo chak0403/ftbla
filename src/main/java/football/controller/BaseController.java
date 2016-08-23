@@ -1,27 +1,8 @@
 package football.controller;
 
-import java.util.List;
-
-import javax.annotation.Resource;
-
-import org.hibernate.Query;
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.orm.hibernate4.HibernateTransactionManager;
-import org.springframework.orm.hibernate4.LocalSessionFactoryBean;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
-
-import football.pojo.ExcelResult;
-import football.svc.FootballAnalysisService;
+import org.springframework.stereotype.Controller;
 	
-@RestController
+@Controller
 public class BaseController {
 
 //	@Autowired
