@@ -1,10 +1,11 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
+<%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>fa</title>
 	
 	<meta name="viewport" 		content="width=device-width, initial-scale=1.0">	
